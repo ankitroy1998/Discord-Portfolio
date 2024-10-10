@@ -11,8 +11,19 @@ const WiproLimited = () => {
                 <h1 className='text-white text-sm font-semibold font-mono ml-2'>Wipro Limited</h1>
             </div>
         </div>
-        <div>
-          <h1 className='text-white mt-3 ml-5'>Test Page For Routing In Wipro Limited</h1>
+        <div className='bg-[#2B2C30] w-[500px] h-[250px] ml-20 mt-20 rounded-md'>
+          <div className='absolute ml-4 mt-4'>
+            <h1 className='text-white font-bold'>Wipro Limited</h1>
+            <h1 className='text-white text-sm mt-2'>I joined Wipro Limited on 21 August 2019 as a Associate</h1>
+            <h1 className='text-white text-sm mt-2'>Location : Kolkata</h1>
+
+            <h1 className='text-white font-bold text-sm mt-2'>Skill Aquired:</h1>
+            <h1 className='text-white text-sm mt-2'>Trained to swiftly address hardware and software problems,</h1>
+            <h1 className='text-white text-sm mt-2'>ensuring seamless client systems.</h1>
+
+            <h1 className='text-white font-bold text-sm mt-2'>Experience :</h1>
+            <h1 className='text-white text-sm mt-2'>21-Aug-2019 - 12-Jan-2021</h1>
+          </div>
         </div>
     </div>
   )

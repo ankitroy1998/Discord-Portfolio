@@ -11,8 +11,18 @@ const LTIMindtree = () => {
                 <h1 className='text-white text-sm font-semibold font-mono ml-2'>LTIMindtree</h1>
             </div>
         </div>
-        <div>
-          <h1 className='text-white mt-3 ml-5'>Test Page For Routing In LTIM</h1>
+        <div className='bg-[#2B2C30] w-[500px] h-[250px] ml-20 mt-20 rounded-md'>
+          <div className='absolute ml-4 mt-4'>
+            <h1 className='text-white font-bold'>LTIMindtree</h1>
+            <h1 className='text-white text-sm mt-2'>I joined LTIMindtree on 13 June 2024 as a Software Engineer</h1>
+            <h1 className='text-white text-sm mt-2'>Location : Navi Mumbai</h1>
+
+            <h1 className='text-white font-bold text-sm mt-4'>Technologies Learned :</h1>
+            <h1 className='text-white text-sm mt-2'>C#, .Net Core, Entity Framework Core, .Net MVC, Angular</h1>
+
+            <h1 className='text-white font-bold text-sm mt-4'>Experience :</h1>
+            <h1 className='text-white text-sm mt-2'>13-Jun-2024 - Present</h1>
+          </div>
         </div>
     </div>
   )

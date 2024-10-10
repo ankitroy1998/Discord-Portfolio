@@ -14,12 +14,10 @@ const UnderGraduate = () => {
         <div className='bg-[#2B2C30] w-[500px] h-[250px] ml-20 mt-20 rounded-md'>
           <div className='absolute ml-4 mt-4'>
             <h1 className='text-white font-bold'>Bachelor of Computer Application</h1>
-            {/* <h1 className='text-white text-sm mt-5'>College : Netaji Subhash Engineering College | Kolkata</h1>
-            <h1 className='text-white text-sm mt-2'>Passout Year : 2019</h1> */}
-            <h1 className='text-white text-sm mt-2'>I completer my BCA from Netaji Subhash Engineering College, Kolkata</h1>
-            <h1 className='text-white text-sm mt-2'>which is affiliated under MAKAUT university.</h1>
+            <h1 className='text-white text-sm mt-2'>I completed my BCA from Netaji Subhash Engineering College, Kolkata</h1>
+            <h1 className='text-white text-sm mt-2'>Affiliated under MAKAUT university.</h1>
             <h1 className='text-white text-sm mt-2'>Session : 2021 - 2023</h1>
-            <h1 className='text-white text-sm mt-2'>CGPA : 9.73</h1>
+            <h1 className='text-white text-sm mt-2'>CGPA : 8.78</h1>
           </div>
         </div>
     </div>

@@ -11,8 +11,13 @@ const HigherSecondary = () => {
                 <h1 className='text-white text-sm font-semibold font-mono ml-2'>Higher Secondary</h1>
             </div>
         </div>
-        <div>
-          <h1 className='text-white mt-3 ml-5'>Test Page For Routing In HSC</h1>
+        <div className='bg-[#2B2C30] w-[500px] h-[250px] ml-20 mt-20 rounded-md'>
+          <div className='absolute ml-4 mt-4'>
+            <h1 className='text-white font-bold'>Higher Secondary</h1>
+            <h1 className='text-white text-sm mt-2'>I completed my HSC from Techno India Group Public Academia, Kolkata</h1>
+            <h1 className='text-white text-sm mt-2'>Affiliated under WBUT.</h1>
+            <h1 className='text-white text-sm mt-2'>Session : 2015 - 2016</h1>
+          </div>
         </div>
     </div>
   )

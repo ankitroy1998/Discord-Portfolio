@@ -1,4 +1,5 @@
 import React from 'react'
+import profile from '../assets/profile.png'
 
 const About = () => {
   return (
@@ -11,8 +12,21 @@ const About = () => {
                 <h1 className='text-white text-sm font-semibold font-mono ml-2'>About</h1>
             </div>
         </div>
-        <div>
-          <h1 className='text-white mt-3 ml-5'>Test Page For Routing In About</h1>
+        <div className='ml-14 mt-14'>
+              <img className='rounded-full h-[150px]' src={profile} alt="logo"/>
+        </div>
+        <div className='ml-14 mt-8'>
+          <h1 className='text-xl font-mono font-bold text-white'>Hey there! My name is <strong className='text-blue-500'>Ankit Roy</strong></h1>
+        </div>
+
+        <div className='ml-14 mt-2'>
+          <h1 className='text-white'>I have completed my MCA degree and currently working as a Software Engineer at LTIMindtree.</h1>
+        </div>
+
+        <div className='bg-[#2B2C30] w-[530px] h-[250px] rounded-md ml-14 mt-6'>
+          <div className='absolute ml-4 mt-6'>
+            <h1 className='text-white w-[500px]'>As a full-stack web developer , I bring a unique blend of technical expertise and creativity to my work. I am passionate about crafting engaging and user-friendly web experiences while creating visually stunning designs. With a strong foundation in coding and design principles, I strive to deliver high-quality solutions that meet client's needs and exceed their expectations. I am a proactive and driven individual, always seeking opportunities to expand my knowledge and skill set.</h1>
+          </div>
         </div>
     </div>
   )
